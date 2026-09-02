@@ -65,28 +65,30 @@
         </div>
       </div>
 
-      <aside class="rotation-card reveal delay-1" aria-label="Daily Rotation">
+      <aside class="rotation-card reveal delay-1 spotify-live-card" aria-label="Spotify player">
         <div class="rotation-head">
-          <h2>Daily Rotation</h2>
-          <p>My Spotify Playlist...</p>
-        </div>
-        <div class="playlist-cover">
-          <div class="cover-noise"></div>
-          <div class="album album-a"></div>
-          <div class="album album-b"></div>
-          <div class="album album-c"></div>
-          <div class="playlist-overlay">
-            <span>JANSEN'S PLAYLIST</span>
-            <h3>Code. Focus.<br>Repeat.</h3>
-            <p>Music for late-night building sessions.</p>
-            <button type="button" class="spotify-btn">Connect Spotify</button>
+          <div>
+            <span class="spotify-live-label">SPOTIFY • NOW PLAYING</span>
+            <h2>Daily Rotation</h2>
+            <p>One episode for the coding session.</p>
           </div>
+          <div class="spotify-live-dot" title="Spotify connected"></div>
         </div>
-        <div class="now-playing">
-          <div class="track-art"><span>JG</span></div>
-          <div class="track-copy"><b>Daily Coding Mix</b><small>Jansen Gilang Pratama</small></div>
-          <div class="dots">•••</div>
-          <button class="play-btn" aria-label="Play demo"><span></span></button>
+        <div class="spotify-embed-wrap">
+          <iframe
+            src="https://open.spotify.com/embed/episode/62yFAC43aVKm1OUNI08Hom?utm_source=generator&theme=0"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Spotify Episode Player">
+          </iframe>
+        </div>
+        <div class="spotify-live-foot">
+          <span>Press play to listen directly here.</span>
+          <a href="https://open.spotify.com/episode/62yFAC43aVKm1OUNI08Hom" target="_blank" rel="noopener noreferrer">Open in Spotify ↗</a>
         </div>
       </aside>
     </section>
